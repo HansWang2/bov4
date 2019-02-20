@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.leaveRequestAcceptDecline.controller.Dialog2"
+	xmlns="sap.m">
+	<Dialog horizontalScrolling="true" showHeader="true" state="None" stretch="false" title="Reset status" type="Standard"
+		verticalScrolling="true">
+		<content>
+			<Text text="Do you wan to reset status and set selected request to &quot;Waiting for approval&quot;?" width="auto" maxLines="2"
+				wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+		</content>
+		<beginButton/>
+		<buttons>
+			<Button text="Yes" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+				press="_onButtonPress"/>
+			<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+				press="_onButtonPress1"/>
+		</buttons>
+		<customHeader/>
+		<endButton/>
+		<subHeader/>
+	</Dialog>
+</core:FragmentDefinition>

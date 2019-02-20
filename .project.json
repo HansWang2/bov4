@@ -1,0 +1,13 @@
+{
+	"dataBinding": {
+		"/webapp/view/Page1.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Dialog2.view.xml": {
+			"entitySet": "/LeaveRequestsSet"
+		},
+		"/webapp/view/Dialog1.view.xml": {
+			"entitySet": "/LeaveRequestsSet"
+		}
+	}
+}

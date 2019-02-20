@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.leaveRequestAcceptDecline.controller.Dialog1"
+	xmlns="sap.m">
+	<Dialog horizontalScrolling="true" showHeader="true" state="None" stretch="false" title="Respond to leave request" type="Standard"
+		verticalScrolling="true">
+		<content>
+			<TextArea rows="2" placeholder="Note to employee" cols="40" maxLength="0" wrapping="None" enabled="true" visible="true"/>
+			<HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="SpaceAround" renderType="Div"
+				visible="true" displayInline="false">
+				<items>
+					<Button text="Reject" type="Reject" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="_onButtonPress"/>
+					<Button text="Approve" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="_onButtonPress1"/>
+				</items>
+				<layoutData/>
+			</HBox>
+			<ToolbarSpacer width=""/>
+		</content>
+		<beginButton/>
+		<buttons>
+			<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+				press="_onButtonPress2"/>
+		</buttons>
+		<customHeader/>
+		<endButton/>
+		<subHeader/>
+	</Dialog>
+</core:FragmentDefinition>

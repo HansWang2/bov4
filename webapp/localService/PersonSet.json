@@ -1,0 +1,61 @@
+[{
+	"ID": "1",
+	"FullName": "Hans Rusten Wang",
+	"AvailableBalance": "25 days",
+	"Mobile": "47256080",
+	"Email": "hans.wang@bouvet.no",
+	"Position": "SAP Utvikler",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "",
+	"Role": ""
+}, {
+	"ID": "2",
+	"FullName": "Thomas Wilhelmsen",
+	"AvailableBalance": "20 days",
+	"Mobile": "12345678",
+	"Email": "thomas.wilhelmsen@bov.no",
+	"Position": "Avdelingsleder - SAP",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "",
+	"Role": "Manager"
+}, {
+	"ID": "3",
+	"FullName": "Tom de Visser",
+	"AvailableBalance": "10 days",
+	"Mobile": "+1-610-663",
+	"Email": "tom.visser@bov.no",
+	"Position": "SAP Utvikler",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "",
+	"Role": ""
+}, {
+	"ID": "4",
+	"FullName": "Øyvind Nordang",
+	"AvailableBalance": "20 days",
+	"Mobile": "+47 00000000",
+	"Email": "øyvind.nordang@bov.no",
+	"Position": "SAP Konsulent",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "54°23'57\"S 3°19'7\"E",
+	"Role": ""
+}, {
+	"ID": "5",
+	"FullName": "Espen Enger",
+	"AvailableBalance": "10 days",
+	"Mobile": "+47 00000000",
+	"Email": "espen.enger@bov.no",
+	"Position": "Leder Virksomhetsstyring",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "",
+	"Role": ""
+}, {
+	"ID": "6",
+	"FullName": "Helene Tokvam Karlsen",
+	"AvailableBalance": "40 days",
+	"Mobile": "",
+	"Email": "",
+	"Position": "Resepsjonist",
+	"___FK_00263529ba4393f411243456_00009": "2",
+	"Kordinat": "54°25'7\"S 3°17'25\"E",
+	"Role": ""
+}]
